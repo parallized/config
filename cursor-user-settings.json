@@ -1,0 +1,26 @@
+{
+    // theme
+    "editor.fontFamily": "Input Mono, monospace",
+    "workbench.colorTheme": "Vitesse Light",
+    "workbench.iconTheme": "catppuccin-latte",
+    "workbench.productIconTheme": "icons-carbon",
+    // cursor
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "scminput"
+    ],
+    // extension.database
+    "database-client.autoSync": true,
+    // git
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.ignoreRebaseWarning": true,
+    // auto import
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // on save
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
